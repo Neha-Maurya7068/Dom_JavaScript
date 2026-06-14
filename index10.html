@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+</head>
+<body>
+    <h1>This is heading</h1>
+    <ul id="listItem">
+        <li class="day">Monday</li>
+        <li class="day">Tuesday</li>
+        <li class="day">Wednesday</li>
+    </ul>
+</body>
+     <script>
+
+      let div = 
+      document.createElement("div");
+      console.log(div);
+      div.innerText = "this is div";
+      div.style.color = "red";
+      div.style.backgroundColor = "green";
+      document.body.appendChild(div);
+      
+
+
+        // function addDay(day){
+        //  let li = document.createElement("li");
+        //  li.innerHTML = `${day}`;
+        //  document.querySelector(".day").appendChild(li);
+
+        // }
+        // addDay("Thrusday");
+ 
+        // function addDay(day){
+        //    let li = document.createElement("li");
+        // //    li.className = "day";
+        //    li.textContent = day;
+        //     document.getElementById("listItem").appendChild(li);
+        // }
+        // addDay("Thrusday");
+        // addDay("Friday");
+        // addDay("Saturday");
+        // addDay("Sunday");
+
+     </script>
+</html>
